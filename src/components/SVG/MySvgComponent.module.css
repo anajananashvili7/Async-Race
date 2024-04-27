@@ -1,0 +1,13 @@
+.container {
+    animation: moveRight 5s linear infinite; /* Adjust duration as needed */
+  }
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateX(0); /* Start position */
+    }
+    100% {
+      transform: translateX(calc(100vw - 80px)); /* End position (80px is the width of the SVG element) */
+    }
+  }
+  

@@ -1,0 +1,20 @@
+html {
+  background-image: url('/brick2.jpg');
+  
+}
+
+body {
+  margin: 0;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+  min-height: 100vh;
+
+  padding: 64px;
+  box-sizing: border-box;
+}
+
